@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>EstateAgency Bootstrap Template</title>
@@ -195,12 +196,14 @@
                 <div class="row">
                   <div class="col-md-6 mb-3">
                     <div class="form-group">
-                      <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                      <input type="text" name="name" class="form-control form-control-lg form-control-a"
+                        placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                     </div>
                   </div>
                   <div class="col-md-6 mb-3">
                     <div class="form-group">
-                      <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                      <input name="email" type="email" class="form-control form-control-lg form-control-a"
+                        placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
                     </div>
                   </div>
                   <div class="col-md-12 mb-1">
@@ -208,21 +211,26 @@
                   </div>
                   <div class="col-md-6 mb-3">
                     <div class="form-group">
-                      <input type="text" name="minPrice" class="form-control form-control-lg form-control-a" placeholder="min" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                      <input type="text" name="minPrice" class="form-control form-control-lg form-control-a"
+                        placeholder="min" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                     </div>
                   </div>
                   <div class="col-md-6 mb-3">
                     <div class="form-group">
-                      <input type="text" name="maxPrice" class="form-control form-control-lg form-control-a" placeholder="max" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                      <input type="text" name="maxPrice" class="form-control form-control-lg form-control-a"
+                        placeholder="max" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                     </div>
-                  </div><div class="col-md-6 mb-3">
+                  </div>
+                  <div class="col-md-6 mb-3">
                     <div class="form-group">
-                      <input type="text" name="Area" class="form-control form-control-lg form-control-a" placeholder="Area" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                      <input type="text" name="Area" class="form-control form-control-lg form-control-a"
+                        placeholder="Area" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                     </div>
                   </div>
                   <div class="col-md-12 mb-3">
                     <div class="form-group">
-                      <input type="text" name="Location" class="form-control form-control-lg form-control-a" placeholder="Location" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                      <input type="text" name="Location" class="form-control form-control-lg form-control-a"
+                        placeholder="Location" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
                       <div class="validation"></div>
                     </div>
                   </div>
@@ -238,52 +246,79 @@
                     </div>
                   </div>
                   <div class="col-md-6 mb-2">
-                      <div class="form-group">
-                        <label for="bedrooms">Bedrooms</label>
-                        <select class="form-control form-control-lg form-control-a" id="bedrooms">
-                          <option>Any</option>
-                          <option>01</option>
-                          <option>02</option>
-                          <option>03</option>
-                        </select>
-                      </div>
+                    <div class="form-group">
+                      <label for="bedrooms">Bedrooms</label>
+                      <select class="form-control form-control-lg form-control-a" id="bedrooms">
+                        <option>Any</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                      </select>
                     </div>
-                    <div class="col-md-6 mb-2">
-                      <div class="form-group">
-                        <label for="garages">Garages</label>
-                        <select class="form-control form-control-lg form-control-a" id="garages">
-                          <option>Any</option>
-                          <option>01</option>
-                          <option>02</option>
-                          <option>03</option>
-                          <option>04</option>
-                        </select>
-                      </div>
+                  </div>
+                  <div class="col-md-6 mb-2">
+                    <div class="form-group">
+                      <label for="garages">Garages</label>
+                      <select class="form-control form-control-lg form-control-a" id="garages">
+                        <option>Any</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                      </select>
                     </div>
-                    <div class="col-md-6 mb-2">
-                      <div class="form-group">
-                        <label for="bathrooms">Bathrooms</label>
-                        <select class="form-control form-control-lg form-control-a" id="bathrooms">
-                          <option>Any</option>
-                          <option>01</option>
-                          <option>02</option>
-                          <option>03</option>
-                        </select>
-                      </div>
+                  </div>
+                  <div class="col-md-6 mb-2">
+                    <div class="form-group">
+                      <label for="bathrooms">Bathrooms</label>
+                      <select class="form-control form-control-lg form-control-a" id="bathrooms">
+                        <option>Any</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                      </select>
                     </div>
-                    
+                  </div>
+
                   <div class="col-md-12 mb-3">
                     <div class="form-group">
-                      <textarea name="message" class="form-control" name="description" cols="45" rows="8" data-rule="required" data-msg="Please write something for us" placeholder="Description"></textarea>
+                      <textarea name="message" class="form-control" name="description" cols="45" rows="8"
+                        data-rule="required" data-msg="Please write something for us"
+                        placeholder="Description"></textarea>
                       <div class="validation"></div>
                     </div>
                   </div>
-  
+
                   <div class="col-md-12">
                     <button type="submit" class="btn btn-a">Submit</button>
                   </div>
                 </div>
               </form>
+            </div>
+            <div class="col-md-5 section-md-t3">
+              <div class="icon-box section-b2">
+                <div class="col-md-12 btn">
+                  <div class="container">
+                  <button onclick="myFunction()" class="col-md-12 btn">add amenitie</button>
+                  </div>
+                  <br>
+                  <div id="amenities" class="container"></div>
+                  <script>
+                    var id = 0
+                    function myFunction() {
+                      var div = document.createElement("DIV");
+                      div.class = "container"
+                      div.innerHTML = '<form class="form-inline"><input id=\"'+id+'\" name="Amenitie" type="text" class="form-control " placeholder="Amenitie" data-rule="amenitie">&nbsp;<button onClick=\"delete_row(this)\" class="btn">-</button></form><br>';
+                      id += 1
+                      document.getElementById("amenities").appendChild(div);
+                    }
+                    function delete_row(e) {
+                      e.parentNode.parentNode.parentNode.removeChild(e.parentNode.parentNode);
+                    }
+
+                  </script>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -471,4 +506,5 @@
   <script src="js/main.js"></script>
 
 </body>
+
 </html>
