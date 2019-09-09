@@ -302,7 +302,7 @@
                                         <div class="validation"></div>
                                     </div>
                                 </div>
-
+                      <input type="hidden" id="amenities_id_array" />
                                 <div class="col-md-12">
                                     <button type="submit" class="btn btn-a">Submit</button>
                                 </div>
@@ -320,7 +320,11 @@
                                 <script>
                                     var id = 0;
                                     var id_array = [];
-
+                                    var hidden_input = document.getElementById('amenities_id_array');
+                                    function updateHiddenInput() {
+                                      console.log(id_array.join(','))
+                                      hidden_input.value = id_array.join(',')
+                                    }
                                     function myFunction() {
                                         var div = document.createElement("DIV");
                                         div.class = "container";
@@ -329,6 +333,7 @@
                                         console.log(id_array);
                                         id += 1;
                                         document.getElementById("amenities").appendChild(div);
+                                        updateHiddenInput()
                                     }
 
                                     function delete_row(e) {
@@ -339,6 +344,7 @@
                                             id_array.splice(index, 1);
                                         }
                                         console.log(id_array)
+                                        updateHiddenInput()
                                     }
 
                                 </script>
